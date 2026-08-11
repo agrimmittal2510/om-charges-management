@@ -24,9 +24,32 @@ A Python + MySQL application to manage yearly Operation & Maintenance (O&M) char
 
 ## 📂 Project Structure
 
-- app.py → Main application  
-- db.py → Database connection  
-- operations.py → Logic for charges & calculations  
+- home.py        → Main application (GUI / entry point)
+- db.py          → Database connection setup
+- operations.py  → Core logic for O&M calculations and queries
+- flats.py       → Handles flat/owner data retrieval
+- insert_data.py → Script to insert initial/sample data
+- om.py          → O&M charges management logic (yearly + quarterly)
+- screenshots/   → Application UI images
+  
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Screen
+![Home Screen](screenshots/home_screen.png)
+
+### 🔍 Search Flat
+![Search Flat](screenshots/search_flat.png)
+
+### 🧾 Add Charges
+![Add Charges](screenshots/add_charges.png)
+
+### 💳 Payment
+![Payment](screenshots/payment.png)
+
+### 📋 View Flats
+![View Flats](screenshots/view_flats.png)
 
 ---
 
